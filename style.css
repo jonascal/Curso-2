@@ -1,0 +1,20 @@
+#arroz {
+	color: aliceblue; background-color: black;
+}
+#feijao{color: aqua; background-color: aqua;
+}
+div{
+	font-size: 50px;
+}
+.pokemon {
+	background-color: deeppink;
+}
+.digimon{
+	background-color: blue;
+}
+.amon{
+	background-color: red; width: 286px
+}
+.pokemon, .amon{
+	border: black 5px solid;
+}
