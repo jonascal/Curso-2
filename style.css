@@ -12,8 +12,15 @@ div{
 .digimon{
 	background-color: blue;
 }
-.amon{
+.amon:visited{
 	background-color: red; width: 286px
+}
+.amon:{
+	background-color: red; width: 286px
+}
+.amon:hover, visited{
+	background-image: image(Noice.jpg);
+	width: 286px
 }
 .pokemon, .amon{
 	border: black 5px solid;
@@ -36,15 +43,15 @@ a.link:hover {
 }
 a.cara{ 
     background-color: aqua;
-    text-decoration-color: aqua;
+    color: aqua;
     display:block;
 }
 a.cara:hover{
-    text-decoration-color: aqua;
+    color: black;
     text-decoration: underline;
 }
-a.cara:visited{
-    background-color: rebeccapurple;
-    text-decoration-color: aqua;
+a.cara:visited,hover{
+    background-color: aqua;
+    color: aqua;
     display:block;
 }
