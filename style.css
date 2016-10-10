@@ -1,10 +1,10 @@
 #arroz {
 	color: aliceblue; background-color: black;
 }
-#feijao{color: aqua; background-color: aqua;
+div#feijao{color: aqua; background-color: aqua;
 }
 div{
-	font-size: 50px;
+	font-size: 20px;
 }
 .pokemon {
 	background-color: deeppink;
@@ -17,4 +17,34 @@ div{
 }
 .pokemon, .amon{
 	border: black 5px solid;
+}
+a.link{
+    width: 300px ;
+    height: 100px ;
+    text-decoration: none;
+    display: inline-table;
+    height: 53px;
+    width: 60;
+    text-align: center;
+    background-color: aqua;
+    text-decoration-color: black;
+}    
+a.link:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+    background-color: red;
+}
+a.cara{ 
+    background-color: aqua;
+    text-decoration-color: aqua;
+    display:block;
+}
+a.cara:hover{
+    text-decoration-color: aqua;
+    text-decoration: underline;
+}
+a.cara:visited{
+    background-color: rebeccapurple;
+    text-decoration-color: aqua;
+    display:block;
 }
